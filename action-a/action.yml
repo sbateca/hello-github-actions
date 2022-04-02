@@ -3,7 +3,7 @@ description: "Acciones de github"
 author: "Sergio Bateca"
 
 inputs:
-  INPUT_MY_NAME:
+  MY_NAME:
     description: "variable para el nombre"
     required: true
     default: "Mundo"
