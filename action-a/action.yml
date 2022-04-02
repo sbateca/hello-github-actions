@@ -1,0 +1,17 @@
+name: "Hola acciones"
+description: "Acciones de github"
+author: "Sergio Bateca"
+
+inputs:
+  MY_NAME:
+    description: "variable para el nombre"
+    required: true
+    default: "Mundo"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
